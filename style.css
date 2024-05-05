@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+ padding: 0;
+  box-sizing: border-box;
+  background-color: #ddd780;
+}
+header{
+  width: 100%;
+  background-color: red;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.navbar ul{
+  list-style: none;
+}
+.navbar ul li{
+  border: 1px solid #675490;
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  width: 170px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navbar ul li a{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: blue;
+}
+.navbar ul li ul li a{
+  color: rgb(78,01,100);
+  margin: 0;
+  height: 10px; width: 100px;
+}
+.navbar ul li:hover{
+  background-color: yellow;
+  transition-delay: 1s;
+  transition-duration: 2s;
+  transform-style: ease-in;
+}
+.navbar ul  ul{
+  display: none;
+  
+}
+.navbar ul li:hover >ul{
+  display: block;
+}
+/*header end*/
+.form1{
+  background-color: crimson;
+  height: fit-content;
+  width: fit-content;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 20px;
+  margin-top: 190px;
+  border-radius: 5%;
+  box-shadow: 5px 5px 3px rgb(56,67,98),-5px -4px 3px rgb(45,67,87);
+}
+.form1 input{
+  padding: 3px 5px;
+  border-radius: 55px;
+  border-color: green;
+}
+.pass{
+  position: relative;
+  margin-top: 5px;
+}
+.reset{
+  position: relative;
+  margin-top:5px;
+  font-weight: bold;
+}
+/*Forms end*/
+footer{
+  background-color: red;
+  color: white;
+  text-align: center;
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+}
+div h2{
+  color: Blue;
+  font-weight: bold;
+  font-family: Times New Roman;
+}
+footer div p{
+  text-align: center;
+  font-family: Times New Roman;
+  font-weight: bold;
+}
+.explain{
+  position: relative;
+  top: -20px;
+}
+.icon{
+  position: relative;
+  top: -10px;
+}
+.icon i{
+  font-size: 25px;
+  padding: 10px;
+}
+.copy{
+  background-color: tomato;
+  height: 50px;
+  line-height: 50px;
+  font-size: 25px;
+}
+/*footer end*/
